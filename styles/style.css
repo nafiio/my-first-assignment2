@@ -161,18 +161,38 @@ footer{
     display: flex;
     gap: 130px;
 }
+.contact-text{
+    font-weight: bold;
+    font-size: 20px;
+    color: #000000;
+    width: 528px;
+    height: 232px;
+    justify-items: baseline;
+    
+}
 .last-pera{
-    width: 50%;
+    width: 100%;
     display: flex;
-    gap: 900px;
+    gap: 600px;
+    /* justify-items: center; */
 }
 footer input[type="text"],footer input[type="Email"],footer textarea{
     height: 64px ; 
-    border-radius: 5px ;
+    border-radius: 10px ;
     background-color: white;
-    /* display: block; */
     width: 100%;
     padding: 10px 20px;
     margin-bottom: 24px;
     border: none;
+}
+.btn-footer{
+     background-color: #4E47FF;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    width: 100%;
+    border-radius: 8px;
+    padding: 10px 20px;
+    
 }
