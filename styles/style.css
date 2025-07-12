@@ -28,11 +28,11 @@
     border: none;
     border-radius: 8px;
     padding: 10px 20px;
-    
-
-
-
-    
+      
+}
+button:hover{
+    color: #000000;
+    background-color: #8987A1;
 }
 
 
@@ -197,6 +197,10 @@ footer input[type="text"],footer input[type="Email"],footer textarea{
     width: 100%;
     border-radius: 8px;
     padding: 10px 20px;  
+}
+.btn-footer:hover{
+    color: #000000;
+    background-color: #8987A1;
 }
 
 /* logo styles */
